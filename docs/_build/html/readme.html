@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tic_tac_toe &mdash; tic_tac_toe 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=8d563738"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="tic_tac_toe" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            tic_tac_toe
+          </a>
+              <div class="version">
+                1.0.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#note">Note</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributions &amp; Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/modules.html">Module Reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">tic_tac_toe</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">tic_tac_toe</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/readme.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <span class="target" id="readme"></span><a class="reference external image-reference" href="https://pyscaffold.org/"><img alt="Project generated with PyScaffold" src="https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="tic-tac-toe">
+<h1>tic_tac_toe<a class="headerlink" href="#tic-tac-toe" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p>The Tic-Tac-Toe code (game.py)  is a Python program that implements a command-line version of the classic game
+of Tic-Tac-Toe, also known as “Noughts and Crosses.” This code defines the core game mechanics,
+allowing two players to take turns placing their symbols (X and O) on a 3x3 grid. The code provides
+functions for displaying the game board, checking for a winning condition for either player, determining
+if the game ends in a draw, and managing the game’s turn-based flow. Players take turns providing row and
+column inputs to place their symbols on the grid. The code also ensures that the game ends when a player
+wins or when the grid is full, announcing the winner or declaring a draw. It serves as a foundation for
+playing Tic-Tac-Toe in a text-based interface.</p>
+</div></blockquote>
+<p># Tic-Tac-Toe Game</p>
+<p>Welcome to the Tic-Tac-Toe project, a classic game of “Noughts and Crosses” implemented in Python. This project is scaffolded using PyScaffold, providing a structured and organized environment for building your Tic-Tac-Toe game.</p>
+<p>## Project Structure</p>
+<p>The project follows a well-defined directory structure, promoting code organization and consistency. Key elements include:</p>
+<ul class="simple">
+<li><p><cite>src/</cite>: The source code of the Tic-Tac-Toe game.</p></li>
+<li><p><cite>tests/</cite>: A test suite using pytest for ensuring the game functions correctly.</p></li>
+<li><p><cite>docs/</cite>: A documentation directory that can be expanded to document the game’s functionality.</p></li>
+<li><p><cite>requirements.txt</cite>: A file to manage project dependencies.</p></li>
+<li><p><cite>setup.py</cite> and <cite>setup.cfg</cite>: Project configuration files for distribution.</p></li>
+<li><p><cite>.gitignore</cite>: A standard Git ignore file for excluding unnecessary files from version control.</p></li>
+<li><p><cite>README.md</cite>: The main project documentation file.</p></li>
+</ul>
+<p>## Version Control</p>
+<p>The project includes Git for version control, enabling you to track changes and collaborate with others effectively.</p>
+<p>## Testing</p>
+<p>You can run tests for the Tic-Tac-Toe game code using tests/test_tictactoe, ensuring its correctness and reliability.</p>
+<p>## Documentation</p>
+<p>There is documentation in game.py describing how the tic_tac_toe game runs.
+## Getting Started</p>
+<p>To play Tic-Tac-Toe game, follow these steps:</p>
+<ol class="arabic simple">
+<li><p>Clone this repository to your local environment.</p></li>
+<li><p>Navigate to the project directory.</p></li>
+<li><p>Install project dependencies: <cite>pip install -r requirements.txt</cite>.</p></li>
+<li><p>Open game.py and hit Run</p></li>
+<li><p>In the command line, follow the prompt to enter your row and column positions until a player wins or there is a draw.</p></li>
+</ol>
+<p>## License</p>
+<p>This project is released under an open-source license. Please check the <cite>LICENSE</cite> file for details.</p>
+<p>—</p>
+<p>Feel free to customize this project to meet your specific needs and create a fantastic Tic-Tac-Toe game using this organized and scaffolded structure. Enjoy the development process!</p>
+<section id="note">
+<span id="pyscaffold-notes"></span><h2>Note<a class="headerlink" href="#note" title="Link to this heading"></a></h2>
+<p>This project has been set up using PyScaffold 4.5. For details and usage
+information on PyScaffold see <a class="reference external" href="https://pyscaffold.org/">https://pyscaffold.org/</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="tic_tac_toe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="contributing.html" class="btn btn-neutral float-right" title="Contributing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Anupam.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
